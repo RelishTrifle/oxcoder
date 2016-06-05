@@ -2,8 +2,7 @@
 .NET架构与应用大作业
 
 ###开发环境: 
-Visual Studio 2013
-
+Visual Studio 2013  
 SQL Server 2012
 
 
