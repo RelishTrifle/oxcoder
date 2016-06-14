@@ -1,0 +1,7 @@
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb

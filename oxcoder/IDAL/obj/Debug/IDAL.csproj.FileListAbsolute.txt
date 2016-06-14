@@ -1,0 +1,7 @@
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\bin\Debug\Model.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IDAL\bin\Debug\Model.pdb

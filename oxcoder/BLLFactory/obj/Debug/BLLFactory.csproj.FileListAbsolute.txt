@@ -1,0 +1,17 @@
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.csprojResolveAssemblyReference.cache
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\BLLFactory.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\BLLFactory.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\BLL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\DALFactory.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\IBLL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\IDAL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\Model.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\SQLServerDAL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\BLL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\DALFactory.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\IBLL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\IDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\Model.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\bin\Debug\SQLServerDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.pdb

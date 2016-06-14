@@ -1,0 +1,6 @@
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\bin\Debug\Model.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\obj\Debug\Model.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
