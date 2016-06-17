@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IDAL;
 using Model;
+using Recruit;
 
 namespace SQLServerDAL
 {
@@ -12,7 +14,11 @@ namespace SQLServerDAL
     {
         public void Insert(user_challenge record)
         {
-            System.Console.WriteLine("Insert!!!!!!!!!!");
+            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
+            UserChallengeDataContext udc = new UserChallengeDataContext(connection);
+            udc.user_challenge.InsertOnSubmit(record);
+            udc.SubmitChanges();
+        
         }
 
         public IList<user_challenge> GetHisChallenges(int user_id, int isHistory)
