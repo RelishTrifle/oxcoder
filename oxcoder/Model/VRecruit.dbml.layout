@@ -2,10 +2,10 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="VRecruit">
   <DataContextMoniker Name="/VRecruitDataContext" />
   <nestedChildShapes>
-    <classShape Id="7a251151-e6e8-43a3-bcfb-40147f95035e" absoluteBounds="2.75, 1.5, 2, 3.0156579589843751">
+    <classShape Id="2cdefb67-6bf2-44ad-ba78-73cfed3accbe" absoluteBounds="3.625, 2.75, 2, 3.3852461751302081">
       <DataClassMoniker Name="/VRecruitDataContext/v_recruit" />
       <nestedChildShapes>
-        <elementListCompartment Id="be1cf6f5-3029-46e7-b21f-c360e2d283a0" absoluteBounds="2.765, 1.96, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="2e472840-5abe-4eb0-b35f-454db283b36a" absoluteBounds="3.64, 3.21, 1.9700000000000002, 2.825246175130208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

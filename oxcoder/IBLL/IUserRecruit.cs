@@ -10,13 +10,15 @@ namespace IBLL
     public interface IUserRecruit
     {
         /// <summary>
-        /// 获取该用户正在进行的/历史的挑战
+        /// 根据筛选条件获取该用户已接受的挑战
         /// </summary>
-        /// <param name="user_id">当前用户id</param>
-        /// <param name="isHistory">0：正在进行的挑战，1：历史挑战</param>
-        /// <returns>该用户正在进行的/历史挑战集合</returns>
+        /// <param name="user_id">用户ID</param>
+        /// <param name="isHistory">是否是历史挑战：0当前正在进行的，1历史挑战</param>
+        /// <param name="userState">0未完成，1已通过，2不通过</param>
+        /// <returns>挑战的泛型集合</returns>
         IQueryable<v_recruit> GetHisChallenges(int user_id, int isHistory, int userState);
 
+        IQueryable<v_recruit> GetChallenge(int id);
 
         /// <summary>
         /// 用户点击挑战结果，进入挑战结果页面，显示挑战结果
@@ -43,5 +45,14 @@ namespace IBLL
         /// </summary>
         /// <param name="result">用户挑战实体</param>
         void BeginRecruit(user_challenge result);
+
+        /// <summary>
+        /// 获取指定挑战ID的所有子题目
+        /// </summary>
+        /// <param name="challenge_id">挑战ID</param>
+        /// <returns>子题目的泛型集合</returns>
+        IList<item> GetItems(int challenge_id);
+
+        
     }
 }

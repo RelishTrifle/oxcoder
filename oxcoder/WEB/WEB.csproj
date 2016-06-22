@@ -65,12 +65,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Recruit\start_recruit.aspx" />
     <Content Include="Recruit\user_recruit.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebFormTest.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recruit\start_recruit.aspx.cs">
+      <DependentUpon>start_recruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruit\start_recruit.aspx.designer.cs">
+      <DependentUpon>start_recruit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recruit\user_recruit.aspx.cs">
       <DependentUpon>user_recruit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -45,5 +45,27 @@ namespace BLL
 
         }
 
+        public IList<item> GetItems(int challenge_id)
+        {
+            IChallengeDao dao = DataAccess.CreateChallengeDao();
+            IItemDao itemDao = DataAccess.CreateItemDao();
+            //解析题目id集合字符串
+            string[] itemIds = dao.GetItemsIds(challenge_id).Split('#');
+            IList<item> items = new List<item>();
+            foreach (string s in itemIds)
+            {
+                int id = Convert.ToInt32(s);
+                items.Add(itemDao.GetItem(id));
+            }
+
+            return items;
+        }
+
+        public IQueryable<v_recruit> GetChallenge(int id)
+        {
+            IVRecruitDao dao = DataAccess.CreateVRecruitDao();
+            return dao.GetChallenge(id);
+        }
+
     }
 }

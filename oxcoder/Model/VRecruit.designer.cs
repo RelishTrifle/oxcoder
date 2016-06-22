@@ -89,11 +89,15 @@ namespace Model
 		
 		private short _rank;
 		
+		private string _salary_range;
+		
 		private string _sponsor;
 		
 		private System.DateTime _begin_date;
 		
 		private System.DateTime _end_date;
+		
+		private int _num;
 		
 		private System.Nullable<short> _userState;
 		
@@ -215,6 +219,22 @@ namespace Model
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_salary_range", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string salary_range
+		{
+			get
+			{
+				return this._salary_range;
+			}
+			set
+			{
+				if ((this._salary_range != value))
+				{
+					this._salary_range = value;
+				}
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_sponsor", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
 		public string sponsor
 		{
@@ -259,6 +279,22 @@ namespace Model
 				if ((this._end_date != value))
 				{
 					this._end_date = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_num", DbType="Int NOT NULL")]
+		public int num
+		{
+			get
+			{
+				return this._num;
+			}
+			set
+			{
+				if ((this._num != value))
+				{
+					this._num = value;
 				}
 			}
 		}

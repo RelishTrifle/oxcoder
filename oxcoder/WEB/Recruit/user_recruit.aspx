@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>猿圈 挑战主页</title>
+    <title>挑战管理</title>
 </head>
 <body>
      <div class="container">
@@ -52,14 +52,14 @@
                                     </div>
                                     <div class="panel-body ">
                                         <ul class="list-unstyled">
-                                            <li>月薪：</li>
+                                            <li>月薪：<%# Eval("salary_range")%></li>
                                          
                                             <li>挑战类型：<%# Eval("language")%></li>
                                           
                                             <li>难度：<%# Eval("rank")%></li>
                                             <li>来源：<%# Eval("sponsor")%></li>
                                             <li><i class="fa fa-calendar"></i><%# Eval("end_date")%></li>
-                                            <li><i class="fa fa-user"></i>人已接受挑战</li>
+                                            <li><i class="fa fa-user"></i>已有<%# Eval("num")%>人接受挑战</li>
                                             <li class="progress-info"><span class="ongoing">
                                                 <br>
                                             </span></li>
@@ -67,7 +67,7 @@
                                     </div>
                                     <!-- /.panel-body -->
                                     <div class="panel-footer align-center">
-                                        <a href="#.aspx?cid=<%# Eval("recruit_id")%>">
+                                        <a href="start_recruit.aspx?id=<%# Eval("recruit_id")%>&cid=<%# Eval("challengeId") %>">
                                             <button class="btn btn-new1">开始挑战</button></a>
                                         <a href="user_recruit.aspx?delete=<%# Eval("recruit_id")%>" class="btn btn-new2">放弃</a>
                                     </div>

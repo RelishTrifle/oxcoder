@@ -38,11 +38,11 @@ namespace WEB.Recruit
         {
             if (!IsPostBack)
             {
-                SetBind();
+                SetDataBind();
             }
         }
 
-        private void SetBind()
+        private void SetDataBind()
         {
             if (Request.QueryString["userState"] != null && Request.QueryString["userState"] != "")
             {

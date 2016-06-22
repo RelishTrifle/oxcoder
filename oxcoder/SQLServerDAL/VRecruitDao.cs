@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,15 @@ namespace SQLServerDAL
             }
            
             return result;
+        }
+
+        public IQueryable<v_recruit> GetChallenge(int id)
+        {
+            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
+            VRecruitDataContext rdc = new VRecruitDataContext(connection);
+
+            IQueryable<v_recruit> view = from v in rdc.v_recruit where v.recruit_id == id select v;
+            return view;
         }
         
     }

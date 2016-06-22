@@ -9,9 +9,11 @@
       <Column Name="company_name" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
       <Column Name="language" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="rank" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="salary_range" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="sponsor" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="begin_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
       <Column Name="end_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="userState" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
       <Column Name="isHistory" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
     </Type>

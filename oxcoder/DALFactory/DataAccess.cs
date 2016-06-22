@@ -21,5 +21,15 @@ namespace DALFactory
         {
             return new VRecruitDao();
         }
+
+        public static IChallengeDao CreateChallengeDao()
+        {
+            return new ChallengeDao();
+        }
+
+        public static IItemDao CreateItemDao()
+        {
+            return new ItemDao();
+        }
     }
 }
