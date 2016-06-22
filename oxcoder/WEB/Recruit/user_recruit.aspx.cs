@@ -6,13 +6,14 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using IBLL;
 using BLL;
+using Model;
 
 namespace WEB.Recruit
 {
     public partial class user_recruit : System.Web.UI.Page
     {
         int page = 0;
-        int isHistory = 0;
+        int isHistory = -1;
         int userState = -1;//0未完成，1通过，2不通过
 
         IUserRecruit recruit = new BLL.UserRecruit();
@@ -58,14 +59,7 @@ namespace WEB.Recruit
             }
                 
             //页面数据显示操作,获取数据
-            if (userState != -1) 
-            {
-                recruit.GetHisChallengeList(1,isHistory);
-            }
-            else
-            {
-                recruit.GetHisChallengeListByState(1, isHistory, userState);
-            }
+            rpt_Challenge.DataSource = recruit.GetHisChallenges(1, isHistory, userState);
 
             Page.DataBind();
     

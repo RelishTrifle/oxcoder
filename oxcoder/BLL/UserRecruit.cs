@@ -23,15 +23,12 @@ namespace BLL
 
         }
 
-        public IList<user_challenge> GetHisChallengeList(int user_id, int isHistory)
+        public IQueryable<v_recruit> GetHisChallenges(int user_id, int isHistory, int userState)
         {
-            return null;
+            IVRecruitDao dao = DataAccess.CreateVRecruitDao();
+            return dao.GetHisChallenges(user_id, isHistory, userState);
         }
 
-        public IList<user_challenge> GetHisChallengeListByState(int user_id, int isHistory, int userState)
-        {
-            return null;
-        }
 
         public user_challenge GetHisResult(int user_challenge_id)
         {

@@ -71,6 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UserChallenge.dbml</DependentUpon>
     </Compile>
+    <Compile Include="VRecruit.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VRecruit.dbml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -103,6 +108,11 @@
       <LastGenOutput>UserChallenge.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <None Include="VRecruit.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>VRecruit.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -130,6 +140,11 @@
   <ItemGroup>
     <None Include="UserChallenge.dbml.layout">
       <DependentUpon>UserChallenge.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VRecruit.dbml.layout">
+      <DependentUpon>VRecruit.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

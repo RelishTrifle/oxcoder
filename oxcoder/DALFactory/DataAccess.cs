@@ -16,5 +16,10 @@ namespace DALFactory
         public static IUserChallengeDao CreateUserChallengeDao() {
             return new UserChallengeDao();
         }
+
+        public static IVRecruitDao CreateVRecruitDao()
+        {
+            return new VRecruitDao();
+        }
     }
 }

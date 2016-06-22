@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tcoder" Class="VRecruitDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang" SettingsObjectName="Model.Properties.Settings" SettingsPropertyName="tcoderConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.v_recruit" Member="v_recruit">
+    <Type Name="v_recruit">
+      <Column Name="recruit_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="userId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="challengeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="challenge_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="company_name" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="language" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rank" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="sponsor" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="begin_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="end_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="userState" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="isHistory" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

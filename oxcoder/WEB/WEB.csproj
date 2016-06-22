@@ -95,6 +95,10 @@
       <Project>{89349863-13cb-487b-a5b1-a3fc40656784}</Project>
       <Name>IBLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{358cac22-900d-42ef-bd6d-8fbe6ca7a9fa}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
