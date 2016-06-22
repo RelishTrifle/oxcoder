@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using IDAL;
 using Model;
-using Recruit;
 
 namespace SQLServerDAL
 {

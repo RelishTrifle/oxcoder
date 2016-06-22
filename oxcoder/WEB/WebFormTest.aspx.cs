@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BLL;
+using IBLL;
 
 namespace WEB
 {
@@ -17,7 +18,7 @@ namespace WEB
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            UserRecruit ur = new UserRecruit();
+            IUserRecruit ur = new UserRecruit();
 
             ur.AcceptChallenge(4, 10);
             

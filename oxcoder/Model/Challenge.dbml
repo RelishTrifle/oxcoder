@@ -3,7 +3,7 @@
   <Table Name="dbo.challenge" Member="challenge">
     <Type Name="challenge">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="compangId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="companyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="language" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="rank" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />

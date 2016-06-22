@@ -82,7 +82,7 @@ namespace Model
 		
 		private int _id;
 		
-		private int _compangId;
+		private int _companyId;
 		
 		private string _name;
 		
@@ -114,8 +114,8 @@ namespace Model
     partial void OnCreated();
     partial void OnidChanging(int value);
     partial void OnidChanged();
-    partial void OncompangIdChanging(int value);
-    partial void OncompangIdChanged();
+    partial void OncompanyIdChanging(int value);
+    partial void OncompanyIdChanged();
     partial void OnnameChanging(string value);
     partial void OnnameChanged();
     partial void OnlanguageChanging(string value);
@@ -167,22 +167,22 @@ namespace Model
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_compangId", DbType="Int NOT NULL")]
-		public int compangId
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_companyId", DbType="Int NOT NULL")]
+		public int companyId
 		{
 			get
 			{
-				return this._compangId;
+				return this._companyId;
 			}
 			set
 			{
-				if ((this._compangId != value))
+				if ((this._companyId != value))
 				{
-					this.OncompangIdChanging(value);
+					this.OncompanyIdChanging(value);
 					this.SendPropertyChanging();
-					this._compangId = value;
-					this.SendPropertyChanged("compangId");
-					this.OncompangIdChanged();
+					this._companyId = value;
+					this.SendPropertyChanged("companyId");
+					this.OncompanyIdChanged();
 				}
 			}
 		}

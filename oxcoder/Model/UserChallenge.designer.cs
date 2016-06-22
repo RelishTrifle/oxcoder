@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Recruit
+namespace Model
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
@@ -18,6 +18,8 @@ namespace Recruit
 	using System.Reflection;
 	using System.Linq;
 	using System.Linq.Expressions;
+	using System.ComponentModel;
+	using System;
 	
 	
 	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="tcoder")]
@@ -28,9 +30,9 @@ namespace Recruit
 		
     #region 可扩展性方法定义
     partial void OnCreated();
-    partial void Insertuser_challenge(Model.user_challenge instance);
-    partial void Updateuser_challenge(Model.user_challenge instance);
-    partial void Deleteuser_challenge(Model.user_challenge instance);
+    partial void Insertuser_challenge(user_challenge instance);
+    partial void Updateuser_challenge(user_challenge instance);
+    partial void Deleteuser_challenge(user_challenge instance);
     #endregion
 		
 		public UserChallengeDataContext() : 
@@ -63,22 +65,14 @@ namespace Recruit
 			OnCreated();
 		}
 		
-		public System.Data.Linq.Table<Model.user_challenge> user_challenge
+		public System.Data.Linq.Table<user_challenge> user_challenge
 		{
 			get
 			{
-				return this.GetTable<Model.user_challenge>();
+				return this.GetTable<user_challenge>();
 			}
 		}
 	}
-}
-namespace Model
-{
-	using System.Data.Linq;
-	using System.Data.Linq.Mapping;
-	using System.ComponentModel;
-	using System;
-	
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.user_challenge")]
 	public partial class user_challenge : INotifyPropertyChanging, INotifyPropertyChanged
@@ -128,8 +122,6 @@ namespace Model
 		{
 			OnCreated();
 		}
-
-
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
 		public int id
