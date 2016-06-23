@@ -1,9 +1,9 @@
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb

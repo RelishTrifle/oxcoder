@@ -1,5 +1,5 @@
-bin
+/Debug  
+/Release
 *.suo
-obj
 *.dll
 *.pdb

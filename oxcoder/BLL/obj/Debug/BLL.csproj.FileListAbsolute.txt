@@ -1,8 +1,5 @@
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\BLL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\BLL.pdb
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.dll
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.pdb
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\DALFactory.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\IBLL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\IDAL.dll
@@ -13,3 +10,6 @@ D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\IBLL.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\IDAL.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\Model.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\bin\Debug\SQLServerDAL.pdb
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.dll
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\BLL\obj\Debug\BLL.pdb
