@@ -13,7 +13,8 @@ namespace WEB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["userId"] = 3;
+            Session["userName"] = "zhao";
         }
 
         protected void Button1_Click(object sender, EventArgs e)

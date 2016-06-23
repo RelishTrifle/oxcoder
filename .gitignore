@@ -1,5 +1,7 @@
 /Debug  
 /Release
+/bin
+/obj
 *.suo
 *.dll
 *.pdb

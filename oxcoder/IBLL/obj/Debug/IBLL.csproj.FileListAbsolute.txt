@@ -5,3 +5,10 @@ D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
+C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
