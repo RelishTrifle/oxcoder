@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://oxcoder.com/user/recruit/user_recruit.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--<base href="http://oxcoder.com:80/">--><base href=".">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="BootstrapStyler">
+<title>猿圈 挑战管理</title>
+<link href="./猿圈 挑战管理_files/bootstrap.min.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/font-awesome.min.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/bootstrap-switch.min.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/bootstrap-select.min.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/style.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/summernote.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/summernote-bs3.css" rel="stylesheet">
+<link href="./猿圈 挑战管理_files/style(1).css" rel="stylesheet" type="text/css">
+<!-- Max css -->
+<link href="./猿圈 挑战管理_files/style_new.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body>
+	
+	
+
+
+
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-top" id="navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand hidden-sm" href="http://oxcoder.com/user/index.html" style="padding: 0;">
+				<img src="./猿圈 挑战管理_files/wlogo_sm.png" style="max-height: 35px;margin:7px;">
+			</a>
+		</div>
+		<div class="navbar-collapse collapse" role="navigation">
+			<ul class="nav navbar-nav">
+				<li class="">
+					<a href="http://oxcoder.com/user/index.html">首页</a>
+				</li>
+				<li class="active">
+					<a href="http://oxcoder.com/user/recruit/user_recruit.html">挑战</a>
+				</li>
+				<li class="">
+					
+						
+						
+							<a href="http://oxcoder.com/user/drivingRange/index.html">练习场</a>
+						
+					
+
+				</li>
+				<li class="">
+					
+						
+						
+							<a href="http://oxcoder.com/user/learnCalendar/index.html">学习日历</a>
+						
+					
+				</li>
+				<li class="">
+					<a href="http://oxcoder.com/user/info/user_center.html">个人中心</a>
+				</li>
+				
+				<li class="">
+					<a href="http://oxcoder.com/competition_info.html">编程大赛</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown" id="drop_down_nav">
+					<a href="http://oxcoder.com/#" class="dropdown-toggle" data-toggle="dropdown">
+						<span class="text">
+							
+								
+								
+								
+									王会
+								
+								
+							
+						</span>
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="http://oxcoder.com/user/info/account_binding.html">帐号设置</a>
+						</li>
+						<li>
+							<a href="http://oxcoder.com/security_logout">注销</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<section id="middle" class="col-md-12 col-no-left-padding">
+					<h2 class="h2-tab">
+						<a href="http://oxcoder.com/user/recruit/user_recruit.html" class="">我接受的挑战</a>
+					</h2>
+					<h2 class="h2-tab">
+						<a href="http://oxcoder.com/user/recruit/user_recruit.html?isHistory=true" class="off">挑战历史</a>
+					</h2>
+				</section>
+			</div>
+			<div class="col-md-12 col-no-left-padding">
+				<section id="middle" class="col-md-12">
+					<div class="btn-group" style="margin-bottom: 10px;">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							全部
+							<span class="caret"></span>
+						</button>
+						<input id="is_history_id" value="false" type="hidden">
+						<input id="user_state_id" value="" type="hidden">
+						<ul class="dropdown-menu">
+							<li>
+								<a href="http://oxcoder.com/user/recruit/user_recruit.html?isHistory=false">全部</a>
+							</li>
+							<li>
+								<a href="http://oxcoder.com/user/recruit/user_recruit.html?isHistory=false&amp;userState=0">未完成的挑战</a>
+							</li>
+							<li>
+								<a href="http://oxcoder.com/user/recruit/user_recruit.html?isHistory=false&amp;userState=1">通过的挑战</a>
+							</li>
+							<li>
+								<a href="http://oxcoder.com/user/recruit/user_recruit.html?isHistory=false&amp;userState=3">不通过的挑战</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url(sys/img/pass2.png);background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[中级]php工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=2565">北京天特信科技有限公司</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/10985032-a741-4bae-9a65-d6435ccdba1f.jpg">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											8K~10K
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>股份期权</li>
+												
+													<li>年度旅游</li>
+												
+													<li>扁平管理</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：4</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.04.26~2016.06.26
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											83人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+												
+													<span class="success">
+														挑战通过!
+														<a href="http://oxcoder.com/user/recruit/his_user_recruit.html?recruitId=3139">查看结果详情</a>
+													</span>
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=135380">
+												<button class="btn btn-new1" onclick="fdisabled(this)">重新挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=135380" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url();background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[中级]Java工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=2759">北京万事互联科技有限公司</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/460581b1-8bdf-4e61-9bfd-f053ebcef3eb.jpg">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											10K~12K
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>五险一金</li>
+												
+													<li>年度旅游</li>
+												
+													<li>管午餐</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：4</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.05.31~2016.07.31
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											65人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+													<span class="ongoing">&nbsp;</span>
+												
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=133993">
+												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=133993" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url();background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[中级]iOS工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=1374">橙悦</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/d28a5c20-d563-4f66-b203-8584cc18ea91.jpg">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											8K~10K
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>弹性工作</li>
+												
+													<li>高薪福利</li>
+												
+													<li>有趣自由</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：3</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.06.01~2016.08.01
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											954人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+													<span class="ongoing">&nbsp;</span>
+												
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=133992">
+												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=133992" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url();background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[高级]iOS工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=2610">北京大米互娱科技有限公司</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/0265c82b-f73f-40b4-b38d-eb49ac1686d9.png">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											15K以上
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>五险一金</li>
+												
+													<li>股份期权</li>
+												
+													<li>帅哥多</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：2</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.05.05~2016.07.05
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											227人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+													<span class="ongoing">&nbsp;</span>
+												
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=133991">
+												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=133991" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url();background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[高级]iOS工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=484">维思尔乐</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/810daa72-a410-42fa-8174-f55339acce00.jpg">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											12K~15K
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>五险一金</li>
+												
+													<li>年底双薪</li>
+												
+													<li>年度旅游</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：3</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.06.07~2016.08.07
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											108人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+													<span class="ongoing">&nbsp;</span>
+												
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=133990">
+												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=133990" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+					<div class="col-md-3">
+						<section id="middle">
+							<div class="panel panel-default shadow-effect" style="background-image:url();background-repeat:no-repeat;background-position:90% 55%;">
+								<div class="col-xs-12 panel-header">
+									<div class="pull-left">
+										<h4 class="line-control">
+										<a>[中级]iOS工程师</a>
+										</h4>
+										<h4 class="line-control" style="min-height:18px;">
+											<a href="http://oxcoder.com/user/cooper_info.html?cooperId=1374">橙悦</a>
+										</h4>
+									</div>
+									<div class="pull-right client-info">
+										<span class="percent text-danger">
+											<img class="img-circle" style="width:60px;height:60px" src="./猿圈 挑战管理_files/d28a5c20-d563-4f66-b203-8584cc18ea91.jpg">
+										</span>
+									</div>
+									
+								</div>
+	
+								<div class="panel-body ">
+									<ul class="list-unstyled">
+										<li>月薪： 
+											
+											10K~12K
+										</li>
+										<li>职位诱惑：</li>
+										<li style="min-height:33px;">
+											<ul class="companyTags">
+												
+												
+													<li>弹性工作</li>
+												
+													<li>高薪福利</li>
+												
+													<li>有趣自由</li>
+												
+											</ul>
+										</li>
+										<li>试题数量：3</li>
+										<li>
+											挑战难度：
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+												<i class="fa fa-star"></i>
+											
+										</li>
+										<li>
+											<i class="fa fa-calendar"></i>
+											2016.06.01~2016.08.01
+										</li>
+										<li>
+											<i class="fa fa-user"></i>
+											898人已接受挑战
+										</li>
+										<li class="progress-info">
+											
+												
+													<span class="ongoing">&nbsp;</span>
+												
+												
+												
+											
+										</li>
+										
+											<li class="progress-info">&nbsp;</li>
+										
+									</ul>
+								</div>
+								<!-- /.panel-body -->
+								<div class="panel-footer align-center">
+									
+										
+											<a href="http://oxcoder.com/user/recruit/start_recruit.html?userRecruitId=133989">
+												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
+											</a>
+											<a href="http://oxcoder.com/user/recruit/abandon_recruit.html?userRecruitId=133989" onclick="fdisabled(this)" class="btn btn-new2">放弃</a>
+										
+										
+									
+								</div>
+								<!-- /.panel-footer -->
+							</div>
+						</section>
+					</div>
+				
+			</div>
+			
+			
+  
+  
+
+<ul class="pagination">
+	
+	
+	
+	
+		
+			<li class="disabled">
+		      <a aria-label="Previous">
+		        <span aria-hidden="true">«</span>
+		      </a>
+		    </li>
+		
+		
+	
+	
+	
+		
+			
+				<li class="active"><a>1</a></li>
+			
+			
+		
+	
+	
+	
+	
+		
+			<li class="disabled">
+		      <a aria-label="Next">
+		        <span aria-hidden="true">»</span>
+		      </a>
+		    </li>
+		
+		
+	
+	
+	
+	
+	<li class="disabled"><a>共6条 1页</a></li>
+</ul>
+
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+	<footer id="footer"></footer>
+	<script src="./猿圈 挑战管理_files/jquery-1.11.0.min.js"></script>
+	<script src="./猿圈 挑战管理_files/bootstrap.min.js"></script>
+	<script src="./猿圈 挑战管理_files/jquery.sparkline.min.js"></script>
+	<script src="./猿圈 挑战管理_files/bootstrap-switch.min.js"></script>
+	<script src="./猿圈 挑战管理_files/bootstrap-select.min.js"></script>
+	<script src="./猿圈 挑战管理_files/bootstrap-filestyle.js"></script>
+	<script src="./猿圈 挑战管理_files/summernote.min.js"></script>
+	<script src="./猿圈 挑战管理_files/script.js"></script>
+	
+	<script type="text/javascript" src="./猿圈 挑战管理_files/pagination.js"></script>
+	
+	<script src="./猿圈 挑战管理_files/zmUtil.js"></script>
+	<script type="text/javascript">
+		var page = 1;
+		$PageCtrl.callBackFun = userRecruitPageTurn;
+		function userRecruitPageTurn(pCode){
+			location.href="/user/recruit/user_recruit.html?pageCode=" + pCode + "&isHistory="+$("#is_history_id").val()+"&userState=" + $("#user_state_id").val();
+		}
+		function fdisabled(obj){
+			$(obj).attr("disabled",true);
+		}
+	</script>
+
+</body></html>

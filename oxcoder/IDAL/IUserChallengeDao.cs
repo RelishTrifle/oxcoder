@@ -30,6 +30,13 @@ namespace IDAL
         IList<user_challenge> GetHisChallengeByState(int user_id, int isHistory, int userState);
 
         /// <summary>
+        /// 根据ID号获取用户挑战表实体
+        /// </summary>
+        /// <param name="user_challenge_id"></param>
+        /// <returns></returns>
+        user_challenge GetChallengeById(int user_challenge_id);
+
+        /// <summary>
         /// 插入一条新的用户挑战记录
         /// </summary>
         /// <param name="record">用户挑战实体</param>

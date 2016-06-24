@@ -65,13 +65,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.aspx" />
+    <Content Include="Recruit\challenge_auth_check.aspx" />
+    <Content Include="Recruit\codingPage.aspx" />
+    <Content Include="Recruit\his_user_recruit.aspx" />
     <Content Include="Recruit\start_recruit.aspx" />
     <Content Include="Recruit\user_recruit.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebFormTest.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recruit\challenge_auth_check.aspx.cs">
+      <DependentUpon>challenge_auth_check.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruit\challenge_auth_check.aspx.designer.cs">
+      <DependentUpon>challenge_auth_check.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruit\codingPage.aspx.cs">
+      <DependentUpon>codingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruit\codingPage.aspx.designer.cs">
+      <DependentUpon>codingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recruit\his_user_recruit.aspx.cs">
+      <DependentUpon>his_user_recruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruit\his_user_recruit.aspx.designer.cs">
+      <DependentUpon>his_user_recruit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Recruit\start_recruit.aspx.cs">
       <DependentUpon>start_recruit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,6 +140,7 @@
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

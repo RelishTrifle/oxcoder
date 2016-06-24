@@ -12,7 +12,7 @@ namespace WEB.Recruit
 {
     public partial class user_recruit : System.Web.UI.Page
     {
-        int page = 0;
+        int delete = -1;
         int isHistory = -1;
         int userState = -1;//0未完成，1通过，2不通过
 

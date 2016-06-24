@@ -19,5 +19,13 @@ namespace SQLServerDAL
             challenge record = cdc.challenge.Single<challenge>(c => c.id == challenge_id);
             return record.items;
         }
+
+        public IQueryable<challenge> GetChallenges()
+        {
+            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
+            ChallengeDataContext cdc = new ChallengeDataContext(connection);
+
+            return cdc.challenge;
+        }
     }
 }

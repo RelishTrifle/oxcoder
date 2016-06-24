@@ -37,7 +37,8 @@ namespace BLL
 
         public void AbandonRecruit(int user_challenge_id)
         {
-
+            IUserChallengeDao dao = DataAccess.CreateUserChallengeDao();
+            dao.DeleteChallenge(user_challenge_id);
         }
 
         public void BeginRecruit(user_challenge result)
