@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using IBLL;
+using BLL;
+using Model;
 
 namespace WEB
 {
@@ -12,6 +15,22 @@ namespace WEB
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
+        {
+            IUserManagment userManagment = new UserManagment();
+            int userId = userManagment.Login(Login1.UserName,Login1.Password);
+            if (userId == -1)
+            {
+                e.Authenticated = false;//不通过验证  
+            }
+            else
+            {
+                Session["userName"] = Login1.UserName;
+                Session["id"] = userId;
+                e.Authenticated = true;//通过验证 
+            }
         }
     }
 }

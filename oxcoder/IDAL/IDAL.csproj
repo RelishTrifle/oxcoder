@@ -42,6 +42,7 @@
     <Compile Include="IChallengeDao.cs" />
     <Compile Include="IItemDao.cs" />
     <Compile Include="IUserChallengeDao.cs" />
+    <Compile Include="IUserDao.cs" />
     <Compile Include="IVRecruitDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

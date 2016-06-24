@@ -31,5 +31,10 @@ namespace DALFactory
         {
             return new ItemDao();
         }
+
+        public static IUserDao CreateUserDao()
+        {
+            return new UserDao();
+        }
     }
 }

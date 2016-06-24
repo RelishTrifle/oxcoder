@@ -7,14 +7,15 @@ using Model;
 
 namespace IBLL
 {
-    interface IUserManagment
+    public interface IUserManagment
     {
         /// <summary>
-        /// 根据id获取用户
+        /// 验证登陆状态
         /// </summary>
-        /// <param name="id">用户id</param>
-        /// <returns></returns>
-        IQueryable<user> GetUser(int id);
+        /// <param name="userName">用户名</param>
+        /// <param name="password">用户密码</param>
+        /// <returns>是否验证成功</returns>
+        int Login(string userName,string password);
 
 
     }
