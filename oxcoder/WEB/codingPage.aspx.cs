@@ -8,7 +8,7 @@ using IBLL;
 using BLL;
 using Model;
 
-namespace WEB.Recruit
+namespace WEB
 {
     public partial class codingPage : System.Web.UI.Page
     {

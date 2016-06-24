@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace WEB.Recruit {
+namespace WEB {
     
     
-    public partial class challenge_auth_check {
+    public partial class his_user_recruit {
     }
 }

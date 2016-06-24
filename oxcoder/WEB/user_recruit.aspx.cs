@@ -8,7 +8,7 @@ using IBLL;
 using BLL;
 using Model;
 
-namespace WEB.Recruit
+namespace WEB
 {
     public partial class user_recruit : System.Web.UI.Page
     {
@@ -18,7 +18,7 @@ namespace WEB.Recruit
 
         IUserRecruit recruit = new BLL.UserRecruit();
 
-        public string UserId 
+        public string UserId
         {
             get
             {
@@ -57,12 +57,12 @@ namespace WEB.Recruit
                 //删除指定id的user_challenge表中的记录
                 recruit.AbandonRecruit(Convert.ToInt32(Request.QueryString["delete"].ToString()));
             }
-                
+
             //页面数据显示操作,获取数据
             rpt_Challenge.DataSource = recruit.GetHisChallenges(1, isHistory, userState);
 
             Page.DataBind();
-    
+
         }
     }
 }

@@ -17,6 +17,8 @@ namespace BLL
             user_challenge record = new user_challenge();
             record.userId = user_id;
             record.challengeId = challenge_id;
+            record.userState = 0;
+            record.isHistory = 0;
 
             IUserChallengeDao dao = DataAccess.CreateUserChallengeDao();
             dao.Insert(record);

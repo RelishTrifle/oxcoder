@@ -15,9 +15,15 @@ namespace SQLServerDAL
         {
             String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             UserChallengeDataContext udc = new UserChallengeDataContext(connection);
-            udc.user_challenge.InsertOnSubmit(record);
-            udc.SubmitChanges();
-        
+            try
+            {
+                udc.user_challenge.InsertOnSubmit(record);
+                udc.SubmitChanges();
+            }
+            catch (Exception e)
+            {
+                
+            }
         }
 
         public IList<user_challenge> GetHisChallenges(int user_id, int isHistory)

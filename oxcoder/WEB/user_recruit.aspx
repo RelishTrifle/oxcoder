@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user_recruit.aspx.cs" Inherits="WEB.Recruit.user_recruit" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user_recruit.aspx.cs" Inherits="WEB.user_recruit" %>
 
 <!DOCTYPE html>
 
@@ -36,14 +36,14 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand hidden-sm" href="#" style="padding: 0;">
+			<a class="navbar-brand hidden-sm" href="index.aspx" style="padding: 0;">
 				<img src="./猿圈 挑战详情_files/wlogo_sm.png" style="max-height: 35px;margin:7px;">
 			</a>
 		</div>
 		<div class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
 				<li class="">
-					<a href="#">首页</a>
+					<a href="index.aspx">首页</a>
 				</li>
 				<li class="active">
 					<a href="user_recruit.aspx">挑战</a>
@@ -143,9 +143,8 @@
 											挑战难度：<%# Eval("rank")%>
 										</li>
 										<li>来源：<%# Eval("sponsor")%></li>
-                                        <li><i class="fa fa-calendar"></i>结束时间：<%# Eval("end_date")%></li>
+                                        <li>结束时间：<%# Eval("end_date")%></li>
 										<li>
-											<i class="fa fa-user"></i>
 											<%# Eval("num")%>人已接受挑战
 										</li>
 										
@@ -155,8 +154,6 @@
 								</div>
 								<!-- /.panel-body -->
 								<div class="panel-footer align-center">
-									
-										
 											<a href="start_recruit.aspx?id=<%# Eval("recruit_id")%>&cid=<%# Eval("challengeId") %>">
 												<button class="btn btn-new1" onclick="fdisabled(this)">开始挑战</button>
 											</a>

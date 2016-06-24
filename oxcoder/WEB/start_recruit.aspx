@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="start_recruit.aspx.cs" Inherits="WEB.Recruit.start_recruit" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="start_recruit.aspx.cs" Inherits="WEB.start_recruit" %>
 
 <!DOCTYPE html>
 
@@ -48,14 +48,14 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand hidden-sm" href="#" style="padding: 0;">
+			<a class="navbar-brand hidden-sm" href="index.aspx" style="padding: 0;">
 				<img src="./猿圈 挑战详情_files/wlogo_sm.png" style="max-height: 35px;margin:7px;">
 			</a>
 		</div>
 		<div class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
 				<li class="">
-					<a href="#">首页</a>
+					<a href="index.aspx">首页</a>
 				</li>
 				<li class="active">
 					<a href="user_recruit.aspx">挑战</a>
@@ -185,8 +185,7 @@
 									
 								<div style="text-align: center;" class="col-md-12">
 											
-									<a id="btn-run-not-sub" href="challenge_auth_check.aspx?order=0&cid=<%#challenge_id %>">
-
+									<a id="btn-run-not-sub" href="codingPage.aspx?order=0&cid=<%#challenge_id %>">
 										<button class="btn btn-info btn-lg">
 											开始挑战
 										</button>

@@ -53,6 +53,5 @@ namespace IBLL
         /// <returns>子题目的泛型集合</returns>
         IList<item> GetItems(int challenge_id);
 
-        
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WEB.Recruit
+namespace WEB
 {
     public partial class his_user_recruit : System.Web.UI.Page
     {

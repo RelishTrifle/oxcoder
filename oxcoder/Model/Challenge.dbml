@@ -16,6 +16,7 @@
       <Column Name="items" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="del" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="company_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

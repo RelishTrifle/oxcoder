@@ -33,16 +33,16 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand hidden-sm" href="#" style="padding: 0;">
+			<a class="navbar-brand hidden-sm" href="index.aspx" style="padding: 0;">
 				<img src="./猿圈 首页_files/wlogo_sm.png" style="max-height: 35px;margin:7px;">
 			</a>
 		</div>
 		<div class="navbar-collapse collapse" role="navigation">
 			<ul class="nav navbar-nav">
-				<li class="">
-					<a href="#">首页</a>
-				</li>
 				<li class="active">
+					<a href="index.aspx">首页</a>
+				</li>
+				<li class="">
 					<a href="user_recruit.aspx">挑战</a>
 				</li>
 
@@ -169,17 +169,16 @@
 				</section>
 			</div>
 
-            <asp:Repeater ID="prt_challenge" runat="server">
+            <asp:Repeater ID="rpt_challenge" runat="server">
                 <ItemTemplate>
-			        <div class="col-md-12" id="cplb_main" scrollpagination="enabled">
-				
+
 					        <div class="col-xs-12 col-md-4 col-lg-3">
 						        <section id="middle">
 							        <div class="panel panel-default shadow-effect">
 								        <div class="col-xs-12 panel-header">
 									        <div class="pull-left">
 										        <h4 class="line-control">
-											        <a href="#"><%# Eval("challenge_name") %></a>
+											        <a href="#"><%# Eval("name") %></a>
 										        </h4>
 										        <h4 class="line-control" style="min-height:18px;">
 											        <a href="#"><%# Eval("company_name") %></a>
@@ -189,22 +188,19 @@
 										        <span class="percent text-danger">
 											        <img class="img-circle" style="width:60px;height:60px" src="./猿圈 首页_files/e27bd787-43d2-4327-83c0-34ef3e12fc24.png">
 										        </span>
-									        </div>
+									        &nbsp;</div>
 									
 								        </div>
 	
 								        <div class="panel-body ">
 									        <ul class="list-unstyled">
-										        <li>月薪：<%# Eval("salary_range") %>
-										        </li>
+										        <li>月薪：<%# Eval("salary_range") %></li>
                                                 <li>
-											        挑战类型：<%# Eval("language") %>
-										        </li>
+											        挑战类型：<%# Eval("language") %></li>
 										        <li>
-											        挑战难度：<%# Eval("rank") %>
-										        </li>
+											        挑战难度：<%# Eval("rank") %></li>
 										        <li>
-											        截止时间：<%# Eval("begin_date") %> -- <%# Eval("end_date") %>
+											        截止时间：<%# Eval("begin_date") %>-- <%# Eval("end_date") %>
 										        </li>
 										        <li>
 											        <%# Eval("num") %>人已接受挑战
@@ -214,15 +210,14 @@
 								        </div>
 								        <!-- /.panel-body -->
 								        <div class="panel-footer align-center">
-									        <a href="http://oxcoder.com/user/accepted_recruit.html?recruitId=3203">
-										        <button class="btn btn-new1" onclick="fdisabled(this)">接受挑战</button>
-									        </a>
+                                            <a href="accept_recruit.aspx?cid=<%# Eval("id") %>">
+                                                <button class="btn btn-new1">接受挑战</button>
+                                            </a>
 								        </div>
 								        <!-- /.panel-footer -->
 							        </div>
 						        </section>
 					        </div>
-			        </div>
                    </ItemTemplate>
             </asp:Repeater>
 		</div>
@@ -235,15 +230,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×data-dismiss="modal">
 						<span aria-hidden="true">×</span>
 						<span class="sr-only">Close</span>
 					</button>
 					<h4 class="modal-title" id="myModalLabel">意见反馈</h4>
 				</div>
 				<div class="modal-body">
-					<form class="">
-						<textarea class="form-control" placeholder="请输入您的反馈意见" style="min-height:200px;"></textarea>
-					</form>
+					<textarea class="form-control" placeholder="请输入您的反馈意见" style="min-height:200px;"></textarea>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-new1">提交</button>
@@ -251,6 +245,7 @@
 			</div>
 		</div>
 	</div>
+
 	<script src="./猿圈 首页_files/jquery-1.11.0.min.js"></script>
 	<script src="./猿圈 首页_files/bootstrap.min.js"></script>
 	<script src="./猿圈 首页_files/all.min.js"></script>

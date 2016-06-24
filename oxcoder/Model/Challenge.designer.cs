@@ -108,6 +108,8 @@ namespace Model
 		
 		private short _del;
 		
+		private string _company_name;
+		
     #region 可扩展性方法定义
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -140,6 +142,8 @@ namespace Model
     partial void OnnumChanged();
     partial void OndelChanging(short value);
     partial void OndelChanged();
+    partial void Oncompany_nameChanging(string value);
+    partial void Oncompany_nameChanged();
     #endregion
 		
 		public challenge()
@@ -423,6 +427,26 @@ namespace Model
 					this._del = value;
 					this.SendPropertyChanged("del");
 					this.OndelChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_company_name", DbType="VarChar(50)")]
+		public string company_name
+		{
+			get
+			{
+				return this._company_name;
+			}
+			set
+			{
+				if ((this._company_name != value))
+				{
+					this.Oncompany_nameChanging(value);
+					this.SendPropertyChanging();
+					this._company_name = value;
+					this.SendPropertyChanged("company_name");
+					this.Oncompany_nameChanged();
 				}
 			}
 		}

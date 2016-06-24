@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="codingPage.aspx.cs" Inherits="WEB.Recruit.codingPage"EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="codingPage.aspx.cs" Inherits="WEB.codingPage"EnableEventValidation="false" %>
 
 <!DOCTYPE html>
 

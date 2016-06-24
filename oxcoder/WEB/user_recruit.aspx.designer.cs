@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace WEB.Recruit {
+namespace WEB {
     
     
     public partial class user_recruit {
