@@ -52,3 +52,5 @@ C:\oxcoder\oxcoder\WEB\bin\IDAL.pdb
 C:\oxcoder\oxcoder\WEB\bin\SQLServerDAL.pdb
 C:\oxcoder\oxcoder\WEB\obj\Debug\WEB.dll
 C:\oxcoder\oxcoder\WEB\obj\Debug\WEB.pdb
+C:\oxcoder\oxcoder\WEB\bin\BLLFactory.dll
+C:\oxcoder\oxcoder\WEB\bin\BLLFactory.pdb

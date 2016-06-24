@@ -19,5 +19,10 @@ namespace BLLFactory
         {
             return new UserRecruit();
         }
+
+        public static IUserManagment CreateUserManagment()
+        {
+            return new UserManagment();
+        }
     }
 }

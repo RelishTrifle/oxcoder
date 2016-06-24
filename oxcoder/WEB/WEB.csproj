@@ -135,6 +135,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLLFactory\BLLFactory.csproj">
+      <Project>{37d833d0-7872-488c-bfc8-79d57c4c7f9f}</Project>
+      <Name>BLLFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{d7889093-4c72-4adc-80e9-60eb6b16a0b2}</Project>
       <Name>BLL</Name>

@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using IBLL;
 using BLL;
 using Model;
+using BLLFactory;
 
 namespace WEB
 {
@@ -19,7 +20,7 @@ namespace WEB
 
         protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
-            IUserManagment userManagment = new UserManagment();
+            IUserManagment userManagment = BusinessAccess.CreateUserManagment();
             int userId = userManagment.Login(Login1.UserName,Login1.Password);
             if (userId == -1)
             {

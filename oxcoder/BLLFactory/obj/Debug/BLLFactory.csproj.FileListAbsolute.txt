@@ -1,0 +1,17 @@
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\BLLFactory.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\BLLFactory.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\BLL.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\IBLL.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\Model.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\DALFactory.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\IDAL.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\SQLServerDAL.dll
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\BLL.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\IBLL.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\Model.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\DALFactory.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\IDAL.pdb
+C:\oxcoder\oxcoder\BLLFactory\bin\Debug\SQLServerDAL.pdb
+C:\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.csprojResolveAssemblyReference.cache
+C:\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.dll
+C:\oxcoder\oxcoder\BLLFactory\obj\Debug\BLLFactory.pdb
