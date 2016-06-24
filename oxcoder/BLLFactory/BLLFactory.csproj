@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFFF97DE-74FB-4136-A3A1-2BBB28607734}</ProjectGuid>
+    <ProjectGuid>{37D833D0-7872-488C-BFC8-79D57C4C7F9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLLFactory</RootNamespace>
@@ -39,8 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLogic.cs" />
-    <Compile Include="IBusinessLogic.cs" />
+    <Compile Include="BusinessAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,25 +47,13 @@
       <Project>{d7889093-4c72-4adc-80e9-60eb6b16a0b2}</Project>
       <Name>BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
-      <Project>{4f3c742f-a262-4d72-a2ed-1a5361465e0f}</Project>
-      <Name>DALFactory</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IBLL\IBLL.csproj">
       <Project>{89349863-13cb-487b-a5b1-a3fc40656784}</Project>
       <Name>IBLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\IDAL\IDAL.csproj">
-      <Project>{c755a7a8-ccfc-47b9-9014-babd43eb58e5}</Project>
-      <Name>IDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{358cac22-900d-42ef-bd6d-8fbe6ca7a9fa}</Project>
       <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
-      <Project>{26984c52-1be8-4b65-9ceb-d3da3750e5ee}</Project>
-      <Name>SQLServerDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
