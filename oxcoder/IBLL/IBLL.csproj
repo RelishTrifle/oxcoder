@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICompanyChallenge.cs" />
     <Compile Include="IChallenge.cs" />
     <Compile Include="IUserRecruit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

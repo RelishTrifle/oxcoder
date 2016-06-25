@@ -10,3 +10,8 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\Model\obj\Debug\Model.dll
+D:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb

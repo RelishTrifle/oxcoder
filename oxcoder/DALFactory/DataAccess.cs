@@ -31,5 +31,11 @@ namespace DALFactory
         {
             return new ItemDao();
         }
+
+        public static ICompanyChallengeDao CreateCompanyChallengeDao()
+        {
+            return new CompanyChallengeDao();
+        }
+       
     }
 }
