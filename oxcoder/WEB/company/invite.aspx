@@ -106,25 +106,19 @@
 
 	<div class="container">
 		<div class="row">
-            <form id="form1" runat="server">
+            <form id="invite_user_form" runat="server"  class="form-vertical bv-form" action="javascript:void(0);" enctype="multipart/form-data" novalidate="novalidate">
             <div class="col-md-9">
 				<h2 class="h2-tab">[初级]Java工程师-邀请挑战</h2>
 				<p class="text-muted">您可以邀请其他渠道获取的人才到猿圈，通过挑战来识别他们的能力。</p>
 				<p style="color:#4A90E2">猿圈小提示：每邀请一位人才将会扣除1个猿民币。</p>
-				<form id="invite_user_form" method="post" class="form-vertical bv-form" action="javascript:void(0);" enctype="multipart/form-data" novalidate="novalidate"><button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+				
 					<input id="recruit_id" name="recruitId" value="3147" type="hidden">
 					<div class="form-group" id="one">
 						<label>
 							<span class="grey">输入邮箱地址(剩余猿民币：<span id="su_resume_span_view_id">10</span>)</span>
 						</label>
-						<input type="email" name="user_emails" class="form-control" placeholder="多个邮件地址请用&#39;,&#39;分隔" data-bv-field="user_emails">
-						<span class="text-muted">
-							邮件将会单独发送给多个候选人。候选人很多？您可以使用下方的批量上传功能
-							<!--  
-							<a href="javascript:void(0);" onclick="change1()" target="_blank" class="pull-right">下载其他渠道导入模板</a>
-							-->
-							<!--  <a href="javascript:void(0);" onclick="change1()">批量上传</a>-->
-						</span>
+						<input type="email" runat="server" id="user_emails" name="user_emails" class="form-control" placeholder="多个邮件地址请用&#39;,&#39;分隔" data-bv-field="user_emails">
+						
 					</div>
 					<span class="help-block has-error" id="hint_user_emails"><small class="help-block" data-bv-validator="emailAddress" data-bv-for="user_emails" data-bv-result="NOT_VALIDATED" style="display: none;">请输入正确的邮箱格式</small><small class="help-block" data-bv-validator="notEmpty" data-bv-for="user_emails" data-bv-result="NOT_VALIDATED" style="display: none;">请输入正确的邮箱格式，多个邮件地址请用','分隔</small></span>
 					<div class="form-group" id="two" style="display:none;">
@@ -160,7 +154,7 @@
 								<span class="grey">邮件主题</span>
 							</label>
 						</div>
-						<input id="email_subject_id" readonly="" type="text" name="email_subject" class="form-control" value="[北京交通大学]-在线笔试邀请函" data-bv-field="email_subject">
+						<input id="email_subject_id" readonly="" type="text" name="email_subject" class="form-control" value="[北京交通大学]-在线笔试邀请函" data-bv-field="email_subject" runat="server">
 						<!-- <span class="text-danger" id="error1" style="display:none;">请输入公司简称</span> -->
 						<span class="help-block has-error" id="hint_email_subject"><small class="help-block" data-bv-validator="notEmpty" data-bv-for="email_subject" data-bv-result="NOT_VALIDATED" style="display: none;">请输入邮件主题</small></span>
 					</div>
@@ -168,17 +162,17 @@
 						<label>
 							<span class="grey">邮件内容</span>
 						</label>
-						<textarea readonly="" name="email_content" rows="9" class="form-control" data-bv-field="email_content">您好：&lt;br&gt;我们非常高兴的通知您，通过了我们的简历筛选，为了评估您的真实编程能力，我们准备了[职位]的在线编程挑战，希望您能完成！&lt;br&gt;点击下面的链接进入在线编程挑战: :&lt;br&gt;[链接]。&lt;br&gt;以下是您的登录信息:&lt;br&gt;用户名：[用户名]&lt;br&gt;密码[密码]&lt;br&gt;感谢您的配合！&lt;br&gt;&lt;br&gt;[公司名]&lt;br&gt;[时间]</textarea>
+						<textarea readonly="" runat="server" id="email_content" name="email_content" rows="9" class="form-control" data-bv-field="email_content">您好：&lt;br&gt;我们非常高兴的通知您，通过了我们的简历筛选，为了评估您的真实编程能力，我们准备了[职位]的在线编程挑战，希望您能完成！&lt;br&gt;点击下面的链接进入在线编程挑战: :&lt;br&gt;[链接]。&lt;br&gt;以下是您的登录信息:&lt;br&gt;用户名：[用户名]&lt;br&gt;密码[密码]&lt;br&gt;感谢您的配合！&lt;br&gt;&lt;br&gt;[公司名]&lt;br&gt;[时间]</textarea>
 						<span class="help-block has-error" id="hint_email_content"><small class="help-block" data-bv-validator="notEmpty" data-bv-for="email_content" data-bv-result="NOT_VALIDATED" style="display: none;">请输入邮件内容</small></span>
 					</div>
 					<div>
 						<input id="user_emails_type" name="user_emails_type" type="hidden" value="-1">
 					</div>
 					<div class="form-group form-actions pull-right">
-						<asp:Button ID="Button1" class="btn btn-new1" runat="server" Text="邀请" OnClick="Button1_Click" />
-						<a href="http://www.oxcoder.com/cooper/index.html" class="btn btn-default" style="margin-left:10px;">返回</a>
+                        <asp:Button ID="Button2" class="btn " runat="server" Text="邀请" OnClick="Button2_Click1" />
+						<a href="#" class="btn btn-default" style="margin-left:10px;">返回</a>
 					</div>
-				</form>
+				
 			</div>
             </form>
 			<div class="col-md-3 profile-info" id="profile_info_div">
@@ -196,7 +190,7 @@
 				<div class="media-body">
 					<h4 class="media-heading">
 						<!-- <span class="welcome">Hello</span> -->
-						<span>北京交通大学</span>
+						<span>百度</span>
 					</h4>
 					
 				</div>

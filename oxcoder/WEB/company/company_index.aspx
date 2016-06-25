@@ -358,7 +358,15 @@
     }
 </script>
 <script type="text/javascript" src="./企业 挑战管理_files/kf.php"></script>
-
+<script >
+    $(function () {
+        $(".btn-new1").click(function () {
+            var challenge_name = $(".challenge_name").val();
+            var company_name = $(".dropdown a span").text();
+            $.post("/company/invite.aspx")
+        })
+    })
+</script>
     </form>
 
 </body>

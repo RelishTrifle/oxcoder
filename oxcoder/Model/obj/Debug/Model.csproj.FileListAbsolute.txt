@@ -20,6 +20,5 @@ C:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
 D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
 D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll
 D:\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
-D:\oxcoder\oxcoder\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 D:\oxcoder\oxcoder\Model\obj\Debug\Model.dll
 D:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
