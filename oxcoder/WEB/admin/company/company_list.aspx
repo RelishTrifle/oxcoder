@@ -11,6 +11,11 @@
     <form id="form1" runat="server">
     <div>
     
+        <asp:GridView ID="GridView1" runat="server" DataSourceID="EntityDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+        </asp:GridView>
+        <asp:EntityDataSource ID="EntityDataSource1" runat="server">
+        </asp:EntityDataSource>
+    
     </div>
     </form>
 </body>

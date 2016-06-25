@@ -39,13 +39,13 @@ namespace WEB
                 else if (role == 1)
                 {
                     //程序员跳转
-                    Login1.DestinationPageUrl = "/start_recruit.aspx";
+                    Login1.DestinationPageUrl = "/index.aspx";
                 }
                 else if (role == 2)
                 {
                     //企业跳转
 
-                    Login1.DestinationPageUrl = "/user_recruit.aspx";
+                    Login1.DestinationPageUrl = "/company/company_index.aspx";
                 }
                 else if (role == 3)
                 {
