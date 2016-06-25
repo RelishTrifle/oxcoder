@@ -390,6 +390,10 @@
       <Project>{d7889093-4c72-4adc-80e9-60eb6b16a0b2}</Project>
       <Name>BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{feab010e-c22d-4800-80e5-d2b698d44790}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IBLL\IBLL.csproj">
       <Project>{89349863-13cb-487b-a5b1-a3fc40656784}</Project>
       <Name>IBLL</Name>

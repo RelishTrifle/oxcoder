@@ -35,7 +35,7 @@ namespace SQLServerDAL
             ItemDataContext idc = new ItemDataContext(connection);
             DateTime begintime = DateTime.Now;
             
-            var challenges = from cl in cdc.challenge where cl.end_date > begintime select cl; 
+            var challenges = from cl in cdc.challenge where cl.end_date > begintime && cl.companyId == 8 select cl; 
             String[,] result = new String[3,5];
             int i=0; 
             foreach (challenge c in challenges)

@@ -23,5 +23,6 @@ D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
 D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
 D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
 D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
 D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
