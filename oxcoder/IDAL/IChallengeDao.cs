@@ -22,8 +22,6 @@ namespace IDAL
         /// <returns>所有挑战集合</returns>
         IQueryable<challenge> GetChallenges();
 
-
-
-
+        void UpdateNum(int id);
     }
 }

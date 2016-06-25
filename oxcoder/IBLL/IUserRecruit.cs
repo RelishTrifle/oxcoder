@@ -44,7 +44,7 @@ namespace IBLL
         /// 用户开始挑战，覆盖以前的挑战记录，更新挑战结果
         /// </summary>
         /// <param name="result">用户挑战实体</param>
-        void BeginRecruit(user_challenge result);
+        void BeginRecruit(int recruit_id, int result);
 
         /// <summary>
         /// 获取指定挑战ID的所有子题目

@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="ICompanyChallenge.cs" />
     <Compile Include="IChallenge.cs" />
+    <Compile Include="IUserManagment.cs" />
     <Compile Include="IUserRecruit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

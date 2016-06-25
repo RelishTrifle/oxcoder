@@ -34,6 +34,7 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\WEB\bin\SQLServerDAL.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\WEB\obj\Debug\WEB.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\WEB\obj\Debug\WEB.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\WEB\obj\Debug\WEB.pdb
+<<<<<<< HEAD
 D:\oxcoder\oxcoder\WEB\bin\WEB.dll.config
 D:\oxcoder\oxcoder\WEB\bin\WEB.dll
 D:\oxcoder\oxcoder\WEB\bin\WEB.pdb
@@ -52,3 +53,25 @@ D:\oxcoder\oxcoder\WEB\bin\SQLServerDAL.pdb
 D:\oxcoder\oxcoder\WEB\obj\Debug\WEB.csprojResolveAssemblyReference.cache
 D:\oxcoder\oxcoder\WEB\obj\Debug\WEB.dll
 D:\oxcoder\oxcoder\WEB\obj\Debug\WEB.pdb
+=======
+C:\oxcoder\oxcoder\WEB\obj\Debug\WEB.csprojResolveAssemblyReference.cache
+C:\oxcoder\oxcoder\WEB\bin\WEB.dll.config
+C:\oxcoder\oxcoder\WEB\bin\WEB.dll
+C:\oxcoder\oxcoder\WEB\bin\WEB.pdb
+C:\oxcoder\oxcoder\WEB\bin\BLL.dll
+C:\oxcoder\oxcoder\WEB\bin\IBLL.dll
+C:\oxcoder\oxcoder\WEB\bin\Model.dll
+C:\oxcoder\oxcoder\WEB\bin\DALFactory.dll
+C:\oxcoder\oxcoder\WEB\bin\IDAL.dll
+C:\oxcoder\oxcoder\WEB\bin\SQLServerDAL.dll
+C:\oxcoder\oxcoder\WEB\bin\BLL.pdb
+C:\oxcoder\oxcoder\WEB\bin\IBLL.pdb
+C:\oxcoder\oxcoder\WEB\bin\Model.pdb
+C:\oxcoder\oxcoder\WEB\bin\DALFactory.pdb
+C:\oxcoder\oxcoder\WEB\bin\IDAL.pdb
+C:\oxcoder\oxcoder\WEB\bin\SQLServerDAL.pdb
+C:\oxcoder\oxcoder\WEB\obj\Debug\WEB.dll
+C:\oxcoder\oxcoder\WEB\obj\Debug\WEB.pdb
+C:\oxcoder\oxcoder\WEB\bin\BLLFactory.dll
+C:\oxcoder\oxcoder\WEB\bin\BLLFactory.pdb
+>>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f

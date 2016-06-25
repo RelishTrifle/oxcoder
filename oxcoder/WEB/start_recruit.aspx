@@ -185,7 +185,7 @@
 									
 								<div style="text-align: center;" class="col-md-12">
 											
-									<a id="btn-run-not-sub" href="codingPage.aspx?order=0&cid=<%#challenge_id %>">
+									<a id="btn-run-not-sub" href="codingPage.aspx?rid=<%# recruit_id %>&cid=<%#challenge_id %>">
 										<button class="btn btn-info btn-lg">
 											开始挑战
 										</button>
@@ -193,8 +193,6 @@
 											
 								</div>
 									
-									
-								
 							</div>
 						</div>
 						<!-- /.row -->
