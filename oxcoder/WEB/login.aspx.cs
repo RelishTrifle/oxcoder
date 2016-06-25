@@ -30,8 +30,33 @@ namespace WEB
             {
                 Session["userName"] = Login1.UserName;
                 Session["id"] = userId;
+                int role = userManagment.GetRole(userId);
+                if (role == 0)
+                {
+                    //登陆失败
+                    Login1.DestinationPageUrl = "/login.aspx";
+                }
+                else if (role == 1)
+                {
+                    //程序员跳转
+                    Login1.DestinationPageUrl = "/start_recruit.aspx";
+                }
+                else if (role == 2)
+                {
+                    //企业跳转
+
+                    Login1.DestinationPageUrl = "/user_recruit.aspx";
+                }
+                else if (role == 3)
+                {
+                    //管理员跳转
+
+                    Login1.DestinationPageUrl = "/accept_recruit.aspx";
+                }
                 e.Authenticated = true;//通过验证 
             }
         }
+
+
     }
 }

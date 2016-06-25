@@ -14,7 +14,7 @@ namespace IDAL
         /// </summary>
         /// <param name="id"></param>
         /// <returns>用户实体</returns>
-       // user GetUserById(int id);
+        user GetUserById(int id);
 
         /// <summary>
         /// 获取全部用户

@@ -17,6 +17,6 @@ namespace IBLL
         /// <returns>是否验证成功</returns>
         int Login(string userName,string password);
 
-
+        int GetRole(int id);
     }
 }
