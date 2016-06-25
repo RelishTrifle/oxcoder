@@ -5,4 +5,5 @@
 *.suo
 *.dll
 *.pdb
+*.cache
 oxcoder/oxcoder.v12.suo
