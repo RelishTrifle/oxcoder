@@ -42,5 +42,10 @@ namespace DALFactory
             return new UserDao();
         }
 
+        public static ICompanyDao CreateCompanyDao()
+        {
+            return new CompanyDao();
+        }
+
     }
 }

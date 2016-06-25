@@ -57,6 +57,89 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\css\my_style.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\css\style_new.css" />
+    <Content Include="admin\css\theme.min.css" />
+    <Content Include="admin\images\01.png" />
+    <Content Include="admin\images\03495419c4679ebcca8ff00e8d05c1ecaadf1259.jpg" />
+    <Content Include="admin\images\1.png" />
+    <Content Include="admin\images\1001.jpg" />
+    <Content Include="admin\images\1014.jpg" />
+    <Content Include="admin\images\1020.jpg" />
+    <Content Include="admin\images\1029.png" />
+    <Content Include="admin\images\1033.jpg" />
+    <Content Include="admin\images\1041.jpg" />
+    <Content Include="admin\images\1043.jpg" />
+    <Content Include="admin\images\1044.jpg" />
+    <Content Include="admin\images\1046.jpeg" />
+    <Content Include="admin\images\1048.jpg" />
+    <Content Include="admin\images\1052.png" />
+    <Content Include="admin\images\1056.jpg" />
+    <Content Include="admin\images\1058.jpg" />
+    <Content Include="admin\images\1060.jpg" />
+    <Content Include="admin\images\1062.jpg" />
+    <Content Include="admin\images\1063.png" />
+    <Content Include="admin\images\1064.png" />
+    <Content Include="admin\images\1209.bmp" />
+    <Content Include="admin\images\1405975_175937039_2.jpg" />
+    <Content Include="admin\images\447.jpg" />
+    <Content Include="admin\images\48.jpg" />
+    <Content Include="admin\images\663.png" />
+    <Content Include="admin\images\829.jpg" />
+    <Content Include="admin\images\930.jpg" />
+    <Content Include="admin\images\960.png" />
+    <Content Include="admin\images\974.jpg" />
+    <Content Include="admin\images\977.jpg" />
+    <Content Include="admin\images\981.png" />
+    <Content Include="admin\images\984.jpg" />
+    <Content Include="admin\images\987.jpg" />
+    <Content Include="admin\images\988.png" />
+    <Content Include="admin\images\989.PNG" />
+    <Content Include="admin\images\991.png" />
+    <Content Include="admin\images\android.png" />
+    <Content Include="admin\images\apple.png" />
+    <Content Include="admin\images\Bitmap3.png" />
+    <Content Include="admin\images\c.png" />
+    <Content Include="admin\images\code.png" />
+    <Content Include="admin\images\comic.jpg" />
+    <Content Include="admin\images\corp.png" />
+    <Content Include="admin\images\corp_step1.png" />
+    <Content Include="admin\images\corp_step2.png" />
+    <Content Include="admin\images\cpp.png" />
+    <Content Include="admin\images\csdn2.png" />
+    <Content Include="admin\images\d039a653ca17abfd3f2ce16f359be4b9a5d19aa5.jpg" />
+    <Content Include="admin\images\d58ae1bd78d7cc44d53b7c10d2e4efba803d2b23.jpg" />
+    <Content Include="admin\images\default.jpg" />
+    <Content Include="admin\images\github2.png" />
+    <Content Include="admin\images\hexun.png" />
+    <Content Include="admin\images\indexpic.png" />
+    <Content Include="admin\images\java.png" />
+    <Content Include="admin\images\lake.jpg" />
+    <Content Include="admin\images\languages.png" />
+    <Content Include="admin\images\logowall.png" />
+    <Content Include="admin\images\new_c1.png" />
+    <Content Include="admin\images\new_c2.png" />
+    <Content Include="admin\images\office.png" />
+    <Content Include="admin\images\php.png" />
+    <Content Include="admin\images\pic.gif" />
+    <Content Include="admin\images\platform.png" />
+    <Content Include="admin\images\python.png" />
+    <Content Include="admin\images\quora2.png" />
+    <Content Include="admin\images\school.png" />
+    <Content Include="admin\images\sf2.png" />
+    <Content Include="admin\images\sina2.png" />
+    <Content Include="admin\images\stackoverflow2.png" />
+    <Content Include="admin\images\tianji.png" />
+    <Content Include="admin\images\waiting.gif" />
+    <Content Include="admin\images\webfigure.png" />
+    <Content Include="admin\images\website4.png" />
+    <Content Include="admin\images\website5.png" />
+    <Content Include="admin\images\website6.png" />
+    <Content Include="admin\images\website7.png" />
+    <Content Include="admin\images\wlogo.png" />
+    <Content Include="admin\images\wlogo_sm.png" />
+    <Content Include="admin\images\zhihu2.png" />
     <Content Include="company\企业 挑战管理_files\core.php" />
     <Content Include="company\企业 挑战管理_files\kf.php" />
     <Content Include="company\企业 挑战管理_files\kf_ivt_new.php" />
@@ -72,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accept_recruit.aspx" />
-    <Content Include="admin\admin.aspx" />
     <Content Include="admin\company\company_list.aspx" />
     <Content Include="company\challenge_step1.aspx" />
     <Content Include="company\challenge_step2.aspx" />
@@ -213,13 +295,6 @@
     <Compile Include="accept_recruit.aspx.designer.cs">
       <DependentUpon>accept_recruit.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin\admin.aspx.cs">
-      <DependentUpon>admin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="admin\admin.aspx.designer.cs">
-      <DependentUpon>admin.aspx</DependentUpon>
-    </Compile>
     <Compile Include="admin\company\company_list.aspx.cs">
       <DependentUpon>company_list.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,24 +304,28 @@
     </Compile>
     <Compile Include="company\challenge_step1.aspx.cs">
       <DependentUpon>challenge_step1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="company\challenge_step1.aspx.designer.cs">
       <DependentUpon>challenge_step1.aspx</DependentUpon>
     </Compile>
     <Compile Include="company\challenge_step2.aspx.cs">
       <DependentUpon>challenge_step2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="company\challenge_step2.aspx.designer.cs">
       <DependentUpon>challenge_step2.aspx</DependentUpon>
     </Compile>
     <Compile Include="company\company_index.aspx.cs">
       <DependentUpon>company_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="company\company_index.aspx.designer.cs">
       <DependentUpon>company_index.aspx</DependentUpon>
     </Compile>
     <Compile Include="company\invite.aspx.cs">
       <DependentUpon>invite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="company\invite.aspx.designer.cs">
       <DependentUpon>invite.aspx</DependentUpon>
