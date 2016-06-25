@@ -14,15 +14,16 @@ namespace WEB
     {
         public int order = 0;
         public int challenge_id = -1;
-        public int user_id = -1;
+        public int user_id = 1;
+        public int recruit_id;
         IList<item> current_item = new List<item>();
         IList<item> items;
 
         IUserRecruit recruit = new UserRecruit();
 
         protected void Page_Load(object sender, EventArgs e)
-        {
-             SetDataBind();
+        { 
+            SetDataBind();
         }
 
         protected void ButtonRun_Click(object sender, EventArgs e)
@@ -33,30 +34,36 @@ namespace WEB
         protected void ButtonSubmit_Click(object sender, EventArgs e)
         {
             //题目还没做完
-            if (order <= items.Count)
+            /*if (order <= items.Count)
             {
                 current_item.Clear();
                 current_item.Add(items[order]);
                 info.DataSource = current_item;
-                order += 1;
 
                 Page.DataBind();
-            }
+            }*/
 
-            //题目全部做完了
-            string result = "98";
+
+            //题目全部做完了,保存对象
+            int result = 98;
+            recruit.BeginRecruit(recruit_id,result);
+            
             //跳转到his_user_recruit.aspx页面
-
+            string s_url = "his_user_recruit.aspx?rid=" + recruit_id;
+            Response.Redirect(s_url);
+            
         }
 
         private void SetDataBind()
         {
             if (Request.QueryString["cid"] != null && Request.QueryString["cid"] != "")
                 challenge_id = Convert.ToInt32(Request.QueryString["cid"].ToString());
+            if (Request.QueryString["rid"] != null && Request.QueryString["rid"] != "")
+                recruit_id = Convert.ToInt32(Request.QueryString["rid"].ToString());
+            //order = Convert.ToInt32(Session["order"])+1;
             items = recruit.GetItems(3);
             current_item.Add(items[order]);
             info.DataSource = current_item;
-            order += 1;
 
             Page.DataBind();
         }

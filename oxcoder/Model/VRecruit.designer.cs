@@ -103,6 +103,8 @@ namespace Model
 		
 		private System.Nullable<short> _isHistory;
 		
+		private System.Nullable<int> _highest;
+		
 		public v_recruit()
 		{
 		}
@@ -327,6 +329,22 @@ namespace Model
 				if ((this._isHistory != value))
 				{
 					this._isHistory = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_highest", DbType="Int")]
+		public System.Nullable<int> highest
+		{
+			get
+			{
+				return this._highest;
+			}
+			set
+			{
+				if ((this._highest != value))
+				{
+					this._highest = value;
 				}
 			}
 		}

@@ -16,6 +16,7 @@
       <Column Name="num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="userState" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
       <Column Name="isHistory" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="highest" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

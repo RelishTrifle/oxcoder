@@ -11,7 +11,7 @@ namespace SQLServerDAL
 {
     public class UserChallengeDao : IUserChallengeDao
     {
-        public void Insert(user_challenge record)
+        public bool Insert(user_challenge record)
         {
             String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             UserChallengeDataContext udc = new UserChallengeDataContext(connection);
@@ -22,8 +22,9 @@ namespace SQLServerDAL
             }
             catch (Exception e)
             {
-                
+                return false;
             }
+            return true;
         }
 
         public IList<user_challenge> GetHisChallenges(int user_id, int isHistory)
@@ -57,8 +58,14 @@ namespace SQLServerDAL
             udc.SubmitChanges();
         }
 
-        public void UpdateChallenge(user_challenge result)
+        public void UpdateChallenge(int recruit_id, int result)
         {
+            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
+            UserChallengeDataContext udc = new UserChallengeDataContext(connection);
+            user_challenge uc = udc.user_challenge.Single<user_challenge>(u => u.id == recruit_id);
+            uc.highest = result;
+            uc.userState = 1;
+            udc.SubmitChanges();
 
         }
     }

@@ -40,7 +40,7 @@ namespace IDAL
         /// 插入一条新的用户挑战记录
         /// </summary>
         /// <param name="record">用户挑战实体</param>
-        void Insert(user_challenge record);
+        bool Insert(user_challenge record);
 
         /// <summary>
         /// 获取某一挑战的具体信息
@@ -60,7 +60,7 @@ namespace IDAL
         /// 更新该挑战信息
         /// </summary>
         /// <param name="result">用户挑战实体</param>
-        void UpdateChallenge(user_challenge result);
+        void UpdateChallenge(int recruit_id, int result);
         
     }
 }

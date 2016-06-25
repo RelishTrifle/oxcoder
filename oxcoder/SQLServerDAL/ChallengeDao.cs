@@ -27,5 +27,16 @@ namespace SQLServerDAL
 
             return cdc.challenge;
         }
+
+        public void UpdateNum(int id)
+        {
+            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
+            ChallengeDataContext cdc = new ChallengeDataContext(connection);
+
+            challenge challenge = cdc.challenge.Single<challenge>(c => c.id == id);
+            challenge.num += 1;
+
+            cdc.SubmitChanges();
+        }
     }
 }

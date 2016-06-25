@@ -21,7 +21,11 @@ namespace BLL
             record.isHistory = 0;
 
             IUserChallengeDao dao = DataAccess.CreateUserChallengeDao();
-            dao.Insert(record);
+            if(dao.Insert(record))
+            {
+                IChallengeDao cdao = DataAccess.CreateChallengeDao();
+                cdao.UpdateNum(challenge_id);
+            }
 
         }
 
@@ -43,9 +47,10 @@ namespace BLL
             dao.DeleteChallenge(user_challenge_id);
         }
 
-        public void BeginRecruit(user_challenge result)
+        public void BeginRecruit(int recruit_id, int result)
         {
-
+            IUserChallengeDao dao = DataAccess.CreateUserChallengeDao();
+            dao.UpdateChallenge(recruit_id,result);
         }
 
         public IList<item> GetItems(int challenge_id)

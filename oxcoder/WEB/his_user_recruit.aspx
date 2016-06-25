@@ -114,14 +114,16 @@
 							<div class="col-md-12">
 								<div class="container-fluid">
 									<section>
+                                        <asp:Repeater runat="server" ID="result">
+                                            <ItemTemplate>
 										<div class="page-header col-md-12">
-											<h2>[中级]Java工程师（北京万事互联科技有限公司）挑战结果</h2>
+											<h2><%# Eval("challenge_name") %>（<%# Eval("company_name") %>）挑战结果</h2>
 											<!-- <h1><span style="color:#3872a4;">通过</span></h1> -->
 											<div class="col-md-2">
 														<img src="./猿圈 挑战结果_files/pass1.png">
 											</div>
 											<div class="col-md-10">
-												<h4 style="color: #3872a4;">当前身价 7810</h4>
+												<h4 style="color: #3872a4;">结果 <%# Eval("highest") %></h4>
 												<span>共用时：20秒</span> <span style="margin-left: 20px;">挑战次数：1</span>
 												<span style="margin-left: 20px;">编译总耗时：23s348ms</span>
 
@@ -132,7 +134,10 @@
 											</div>
 
 										</div>
+                                                 </ItemTemplate>
+                                        </asp:Repeater>
 									</section>
+
 									<div class="col-md-12">
 										
 											
