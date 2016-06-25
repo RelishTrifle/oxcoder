@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICompanyChallengeDao.cs" />
     <Compile Include="IChallengeDao.cs" />
     <Compile Include="IItemDao.cs" />
     <Compile Include="IUserChallengeDao.cs" />

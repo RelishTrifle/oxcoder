@@ -12,6 +12,15 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\IDAL\bin\Debug\Model.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.pdb
+<<<<<<< HEAD
+D:\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.dll
+D:\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.pdb
+D:\oxcoder\oxcoder\IDAL\bin\Debug\Model.dll
+D:\oxcoder\oxcoder\IDAL\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.dll
+D:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.pdb
+=======
 C:\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.dll
 C:\oxcoder\oxcoder\IDAL\bin\Debug\IDAL.pdb
 C:\oxcoder\oxcoder\IDAL\bin\Debug\Model.dll
@@ -19,3 +28,4 @@ C:\oxcoder\oxcoder\IDAL\bin\Debug\Model.pdb
 C:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
 C:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.dll
 C:\oxcoder\oxcoder\IDAL\obj\Debug\IDAL.pdb
+>>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f

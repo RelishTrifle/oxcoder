@@ -66,6 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accept_recruit.aspx" />
+    <Content Include="company\challenge_step1.aspx" />
+    <Content Include="company\challenge_step2.aspx" />
+    <Content Include="company\company_index.aspx" />
+    <Content Include="company\invite.aspx" />
     <Content Include="index.aspx" />
     <Content Include="codingPage.aspx" />
     <Content Include="his_user_recruit.aspx" />
@@ -82,6 +86,34 @@
     </Compile>
     <Compile Include="accept_recruit.aspx.designer.cs">
       <DependentUpon>accept_recruit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\challenge_step1.aspx.cs">
+      <DependentUpon>challenge_step1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\challenge_step1.aspx.designer.cs">
+      <DependentUpon>challenge_step1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\challenge_step2.aspx.cs">
+      <DependentUpon>challenge_step2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\challenge_step2.aspx.designer.cs">
+      <DependentUpon>challenge_step2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\company_index.aspx.cs">
+      <DependentUpon>company_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\company_index.aspx.designer.cs">
+      <DependentUpon>company_index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\invite.aspx.cs">
+      <DependentUpon>invite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\invite.aspx.designer.cs">
+      <DependentUpon>invite.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
