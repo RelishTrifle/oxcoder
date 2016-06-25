@@ -20,19 +20,6 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.pdb
-<<<<<<< HEAD
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.dll
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.pdb
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\IDAL.dll
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\Model.dll
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.dll
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\IDAL.pdb
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\Model.pdb
-D:\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.pdb
-D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
-D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.dll
-D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.pdb
-=======
 C:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
 C:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.dll
 C:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.pdb
@@ -44,4 +31,14 @@ C:\oxcoder\oxcoder\DALFactory\bin\Debug\Model.pdb
 C:\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.pdb
 C:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.dll
 C:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.pdb
->>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.dll
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\DALFactory.pdb
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\IDAL.dll
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\Model.dll
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.dll
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\IDAL.pdb
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\DALFactory\bin\Debug\SQLServerDAL.pdb
+D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.dll
+D:\oxcoder\oxcoder\DALFactory\obj\Debug\DALFactory.pdb

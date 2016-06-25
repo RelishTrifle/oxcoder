@@ -12,15 +12,6 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
-<<<<<<< HEAD
-D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
-D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
-D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
-D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
-D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
-D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
-D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
-=======
 C:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
 C:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
 C:\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
@@ -28,4 +19,9 @@ C:\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
 C:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 C:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
 C:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
->>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f
+D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.dll
+D:\oxcoder\oxcoder\IBLL\bin\Debug\IBLL.pdb
+D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.dll
+D:\oxcoder\oxcoder\IBLL\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.dll
+D:\oxcoder\oxcoder\IBLL\obj\Debug\IBLL.pdb
