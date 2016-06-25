@@ -16,3 +16,12 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
+C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.dll
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.pdb
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
+C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
+C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
+C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
