@@ -4,36 +4,6 @@ D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
-D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
 D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.dll
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.pdb
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
-C:\Users\Tang\Desktop\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
-<<<<<<< HEAD
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.dll
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.pdb
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
-D:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
-D:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
-D:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
-D:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
-=======
-C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.dll
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\SQLServerDAL.pdb
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.dll
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.dll
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\IDAL.pdb
-C:\oxcoder\oxcoder\SQLServerDAL\bin\Debug\Model.pdb
-C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.dll
-C:\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.pdb
->>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f
+D:\Users\Clo\Documents\GitHub\oxcoder\oxcoder\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache

@@ -13,7 +13,8 @@ namespace DALFactory
     /// </summary>
     public class DataAccess
     {
-        public static IUserChallengeDao CreateUserChallengeDao() {
+        public static IUserChallengeDao CreateUserChallengeDao()
+        {
             return new UserChallengeDao();
         }
 
@@ -32,17 +33,14 @@ namespace DALFactory
             return new ItemDao();
         }
 
-<<<<<<< HEAD
         public static ICompanyChallengeDao CreateCompanyChallengeDao()
         {
             return new CompanyChallengeDao();
         }
-       
-=======
+
         public static IUserDao CreateUserDao()
         {
             return new UserDao();
         }
->>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f
     }
 }

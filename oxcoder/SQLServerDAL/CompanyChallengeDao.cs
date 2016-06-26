@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IDAL;
 using Model;
+using System.Configuration;
 
 namespace SQLServerDAL
 {
@@ -27,10 +28,9 @@ namespace SQLServerDAL
             
         //}
 
-
+        private String connection = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
         public String[,] GetOngoChallenges()
         {
-            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             ChallengeDataContext cdc = new ChallengeDataContext(connection);
             ItemDataContext idc = new ItemDataContext(connection);
             DateTime begintime = DateTime.Now;
@@ -55,7 +55,6 @@ namespace SQLServerDAL
 
         public void SaveChallenge(challenge c)
         {
-            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             ChallengeDataContext cdc = new ChallengeDataContext(connection);
             cdc.challenge.InsertOnSubmit(c);
             cdc.SubmitChanges();
@@ -64,7 +63,6 @@ namespace SQLServerDAL
 
         public List<item> getItems(int level, string lang)
         {
-            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             ItemDataContext cdc = new ItemDataContext(connection);
             List<item> items = new List<item>();
             var query = from c in cdc.item where c.level == level & c.language == lang select c;

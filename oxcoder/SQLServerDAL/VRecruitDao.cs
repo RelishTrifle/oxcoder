@@ -6,14 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using IDAL;
 using Model;
+using System.Configuration;
+
 
 namespace SQLServerDAL
 {
     public class VRecruitDao : IVRecruitDao
     {
+        private String connection = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
         public IQueryable<v_recruit> GetHisChallenges(int user_id, int isHistory, int userState)
         {
-            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             VRecruitDataContext rdc = new VRecruitDataContext(connection);
             IQueryable<v_recruit> result = null;
             if (userState >= 0)
@@ -30,7 +32,6 @@ namespace SQLServerDAL
 
         public IQueryable<v_recruit> GetChallenge(int id)
         {
-            String connection = "Data Source=115.159.202.201;Initial Catalog=tcoder;Persist Security Info=True;User ID=tang;Password=.net123456";
             VRecruitDataContext rdc = new VRecruitDataContext(connection);
 
             IQueryable<v_recruit> view = from v in rdc.v_recruit where v.recruit_id == id select v;
