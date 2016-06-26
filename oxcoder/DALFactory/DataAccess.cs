@@ -37,10 +37,23 @@ namespace DALFactory
         {
             return new CompanyChallengeDao();
         }
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> origin/developer
         public static IUserDao CreateUserDao()
         {
             return new UserDao();
         }
+<<<<<<< HEAD
+=======
+
+        public static ICompanyDao CreateCompanyDao()
+        {
+            return new CompanyDao();
+        }
+
+>>>>>>> origin/developer
     }
 }
