@@ -10,17 +10,15 @@ C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.dll
 C:\Users\Tang\Desktop\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
-<<<<<<< HEAD
-D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
-D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll
-D:\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
-D:\oxcoder\oxcoder\Model\obj\Debug\Model.dll
-D:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
-=======
+��
 C:\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
 C:\oxcoder\oxcoder\Model\bin\Debug\Model.dll
 C:\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
 C:\oxcoder\oxcoder\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\oxcoder\oxcoder\Model\obj\Debug\Model.dll
 C:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb
->>>>>>> 279c6f67dd56efa647726622fe837d28d6c2b08f
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll.config
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.dll
+D:\oxcoder\oxcoder\Model\bin\Debug\Model.pdb
+D:\oxcoder\oxcoder\Model\obj\Debug\Model.dll
+D:\oxcoder\oxcoder\Model\obj\Debug\Model.pdb

@@ -2,4 +2,3 @@ D:\oxcoder\oxcoder\Common\bin\Debug\Common.dll
 D:\oxcoder\oxcoder\Common\bin\Debug\Common.pdb
 D:\oxcoder\oxcoder\Common\obj\Debug\Common.dll
 D:\oxcoder\oxcoder\Common\obj\Debug\Common.pdb
-D:\oxcoder\oxcoder\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

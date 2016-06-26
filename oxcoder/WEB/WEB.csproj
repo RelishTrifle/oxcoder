@@ -57,6 +57,95 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\css\my_style.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\css\style_new.css" />
+    <Content Include="admin\css\theme.min.css" />
+    <Content Include="admin\images\01.png" />
+    <Content Include="admin\images\03495419c4679ebcca8ff00e8d05c1ecaadf1259.jpg" />
+    <Content Include="admin\images\1.png" />
+    <Content Include="admin\images\1001.jpg" />
+    <Content Include="admin\images\1014.jpg" />
+    <Content Include="admin\images\1020.jpg" />
+    <Content Include="admin\images\1029.png" />
+    <Content Include="admin\images\1033.jpg" />
+    <Content Include="admin\images\1041.jpg" />
+    <Content Include="admin\images\1043.jpg" />
+    <Content Include="admin\images\1044.jpg" />
+    <Content Include="admin\images\1046.jpeg" />
+    <Content Include="admin\images\1048.jpg" />
+    <Content Include="admin\images\1052.png" />
+    <Content Include="admin\images\1056.jpg" />
+    <Content Include="admin\images\1058.jpg" />
+    <Content Include="admin\images\1060.jpg" />
+    <Content Include="admin\images\1062.jpg" />
+    <Content Include="admin\images\1063.png" />
+    <Content Include="admin\images\1064.png" />
+    <Content Include="admin\images\1209.bmp" />
+    <Content Include="admin\images\1405975_175937039_2.jpg" />
+    <Content Include="admin\images\447.jpg" />
+    <Content Include="admin\images\48.jpg" />
+    <Content Include="admin\images\663.png" />
+    <Content Include="admin\images\829.jpg" />
+    <Content Include="admin\images\930.jpg" />
+    <Content Include="admin\images\960.png" />
+    <Content Include="admin\images\974.jpg" />
+    <Content Include="admin\images\977.jpg" />
+    <Content Include="admin\images\981.png" />
+    <Content Include="admin\images\984.jpg" />
+    <Content Include="admin\images\987.jpg" />
+    <Content Include="admin\images\988.png" />
+    <Content Include="admin\images\989.PNG" />
+    <Content Include="admin\images\991.png" />
+    <Content Include="admin\images\android.png" />
+    <Content Include="admin\images\apple.png" />
+    <Content Include="admin\images\Bitmap3.png" />
+    <Content Include="admin\images\c.png" />
+    <Content Include="admin\images\code.png" />
+    <Content Include="admin\images\comic.jpg" />
+    <Content Include="admin\images\corp.png" />
+    <Content Include="admin\images\corp_step1.png" />
+    <Content Include="admin\images\corp_step2.png" />
+    <Content Include="admin\images\cpp.png" />
+    <Content Include="admin\images\csdn2.png" />
+    <Content Include="admin\images\d039a653ca17abfd3f2ce16f359be4b9a5d19aa5.jpg" />
+    <Content Include="admin\images\d58ae1bd78d7cc44d53b7c10d2e4efba803d2b23.jpg" />
+    <Content Include="admin\images\default.jpg" />
+    <Content Include="admin\images\github2.png" />
+    <Content Include="admin\images\hexun.png" />
+    <Content Include="admin\images\indexpic.png" />
+    <Content Include="admin\images\java.png" />
+    <Content Include="admin\images\lake.jpg" />
+    <Content Include="admin\images\languages.png" />
+    <Content Include="admin\images\logowall.png" />
+    <Content Include="admin\images\new_c1.png" />
+    <Content Include="admin\images\new_c2.png" />
+    <Content Include="admin\images\office.png" />
+    <Content Include="admin\images\php.png" />
+    <Content Include="admin\images\pic.gif" />
+    <Content Include="admin\images\platform.png" />
+    <Content Include="admin\images\python.png" />
+    <Content Include="admin\images\quora2.png" />
+    <Content Include="admin\images\school.png" />
+    <Content Include="admin\images\sf2.png" />
+    <Content Include="admin\images\sina2.png" />
+    <Content Include="admin\images\stackoverflow2.png" />
+    <Content Include="admin\images\tianji.png" />
+    <Content Include="admin\images\waiting.gif" />
+    <Content Include="admin\images\webfigure.png" />
+    <Content Include="admin\images\website4.png" />
+    <Content Include="admin\images\website5.png" />
+    <Content Include="admin\images\website6.png" />
+    <Content Include="admin\images\website7.png" />
+    <Content Include="admin\images\wlogo.png" />
+    <Content Include="admin\images\wlogo_sm.png" />
+    <Content Include="admin\images\zhihu2.png" />
+    <Content Include="company\企业 挑战管理_files\core.php" />
+    <Content Include="company\企业 挑战管理_files\kf.php" />
+    <Content Include="company\企业 挑战管理_files\kf_ivt_new.php" />
+    <Content Include="company\企业 挑战管理_files\sendacc.jsp" />
+    <Content Include="company\企业 挑战管理_files\stat.php" />
+    <Content Include="company\企业 挑战管理_files\z_stat.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,10 +155,129 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accept_recruit.aspx" />
+    <Content Include="admin\company\company_list.aspx" />
     <Content Include="company\challenge_step1.aspx" />
     <Content Include="company\challenge_step2.aspx" />
     <Content Include="company\company_index.aspx" />
     <Content Include="company\invite.aspx" />
+    <Content Include="company\企业 挑战管理.html" />
+    <Content Include="company\企业 挑战管理_files\8a42ace9-ed68-450b-9c11-e76c91c824d8.jpg" />
+    <Content Include="company\企业 挑战管理_files\bootstrap-filestyle.js" />
+    <Content Include="company\企业 挑战管理_files\bootstrap-select.min.css" />
+    <Content Include="company\企业 挑战管理_files\bootstrap-select.min.js" />
+    <Content Include="company\企业 挑战管理_files\bootstrap-switch.min.css" />
+    <Content Include="company\企业 挑战管理_files\bootstrap-switch.min.js" />
+    <Content Include="company\企业 挑战管理_files\bootstrap.min.css" />
+    <Content Include="company\企业 挑战管理_files\bootstrap.min.js" />
+    <Content Include="company\企业 挑战管理_files\bootstrapValidator.min.css" />
+    <Content Include="company\企业 挑战管理_files\clickbtn_11.png" />
+    <Content Include="company\企业 挑战管理_files\clickbtn_182.png" />
+    <Content Include="company\企业 挑战管理_files\closebtn_3.png" />
+    <Content Include="company\企业 挑战管理_files\commonbg_4.png" />
+    <Content Include="company\企业 挑战管理_files\font-awesome.min.css" />
+    <Content Include="company\企业 挑战管理_files\jquery-1.11.0.min.js" />
+    <Content Include="company\企业 挑战管理_files\jquery-1.4.2.flp.js" />
+    <Content Include="company\企业 挑战管理_files\jquery.sparkline.min.js" />
+    <Content Include="company\企业 挑战管理_files\otherimg_6.png" />
+    <Content Include="company\企业 挑战管理_files\pagination.js" />
+    <Content Include="company\企业 挑战管理_files\pic.gif" />
+    <Content Include="company\企业 挑战管理_files\script.js" />
+    <Content Include="company\企业 挑战管理_files\style%281%29.css" />
+    <Content Include="company\企业 挑战管理_files\style.css" />
+    <Content Include="company\企业 挑战管理_files\style_new.css" />
+    <Content Include="company\企业 挑战管理_files\summernote-bs3.css" />
+    <Content Include="company\企业 挑战管理_files\summernote.css" />
+    <Content Include="company\企业 挑战管理_files\summernote.min.js" />
+    <Content Include="company\企业 挑战管理_files\wlogo_sm.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\8a42ace9-ed68-450b-9c11-e76c91c824d8.jpg" />
+    <Content Include="company\猿圈 新增挑战邀请_files\android.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\apple.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap-filestyle.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap-select.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap-select.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap-switch.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap-switch.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrap.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrapValidator.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrapValidator.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\bootstrapValidator_zh_CN.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\c.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\cpp.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\font-awesome.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\java.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\jquery-1.11.0.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\jquery-confirm.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\jquery-confirm.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\jquery.sparkline.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\nc1.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\php.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\python.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\script.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\style%281%29.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\style.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\style_new.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\summernote-bs3.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\summernote.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\summernote.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\WdatePicker.css" />
+    <Content Include="company\猿圈 新增挑战邀请_files\WdatePicker.js" />
+    <Content Include="company\猿圈 新增挑战邀请_files\wlogo_sm.png" />
+    <Content Include="company\猿圈 新增挑战邀请_files\zmUtil.js" />
+    <Content Include="company\猿圈 新增挑战邀请（第一步）.html" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）.html" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\8a42ace9-ed68-450b-9c11-e76c91c824d8.jpg" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap-filestyle.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap-select.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap-select.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap-switch.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap-switch.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\bootstrap.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\font-awesome.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\jquery-1.11.0.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\jquery-confirm.min.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\jquery-confirm.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\jquery.sparkline.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\nc2.png" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\script.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\style%281%29.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\style.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\style_new.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\summernote-bs3.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\summernote.css" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\summernote.min.js" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\wlogo_sm.png" />
+    <Content Include="company\猿圈 新增挑战邀请（选择挑战题目）_files\zmUtil.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）.html" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\8a42ace9-ed68-450b-9c11-e76c91c824d8.jpg" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap-filestyle.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap-select.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap-select.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap-switch.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap-switch.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrap.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrapValidator.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrapValidator.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\bootstrapValidator_zh_CN.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\fileinput.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\fileinput.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\fileinput_locale_zh.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\font-awesome.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\jquery-1.11.0.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\jquery-confirm.min.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\jquery-confirm.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\jquery.form.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\jquery.sparkline.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\style%281%29.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\style.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\style_new.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\summernote-bs3.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\summernote.css" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\summernote.min.js" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\wlogo_sm.png" />
+    <Content Include="company\猿圈 新建挑战邀请（邀请人才）_files\zmUtil.js" />
     <Content Include="index.aspx" />
     <Content Include="codingPage.aspx" />
     <Content Include="his_user_recruit.aspx" />
@@ -86,6 +294,13 @@
     </Compile>
     <Compile Include="accept_recruit.aspx.designer.cs">
       <DependentUpon>accept_recruit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\company\company_list.aspx.cs">
+      <DependentUpon>company_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\company\company_list.aspx.designer.cs">
+      <DependentUpon>company_list.aspx</DependentUpon>
     </Compile>
     <Compile Include="company\challenge_step1.aspx.cs">
       <DependentUpon>challenge_step1.aspx</DependentUpon>
@@ -174,6 +389,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{d7889093-4c72-4adc-80e9-60eb6b16a0b2}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{feab010e-c22d-4800-80e5-d2b698d44790}</Project>
+      <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\IBLL\IBLL.csproj">
       <Project>{89349863-13cb-487b-a5b1-a3fc40656784}</Project>
